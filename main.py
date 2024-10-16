@@ -86,4 +86,4 @@ finally:
 with open("metro_products.json", "w", encoding="utf-8") as jsonfile:
     json.dump(all_products, jsonfile, ensure_ascii=False, indent=4)
 
-print("Данные успешно сохранены в файл metro_products.json")
+print("Данные успешно сохранены в файл metro_products.json !")
