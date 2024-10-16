@@ -69,7 +69,7 @@ chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")
 
 # Путь к ChromeDriver
-service = Service('D:/projects/my_parser/driver/chromedriver.exe')
+service = Service('')
 
 # Инициализация драйвера
 driver = webdriver.Chrome(service=service, options=chrome_options)
